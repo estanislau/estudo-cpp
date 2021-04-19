@@ -7,6 +7,7 @@ using namespace std;
 
 // int t = 1; é o exemplo de uma variável global, ou seja, válida para todas as funções
 
+// Funções
 void f_inscrever(){             // 'void' determina umma função apenas de saída, '()' if_orma que não tem argumento
     cout << "Inscreva-se no canal\nque é muito legal\n";
 

@@ -1,5 +1,7 @@
 #include <iostream>
 
+// Meu primeiro algoritmo em C++
+
 using namespace std;            // com isso não precisamos mais usar, abaixo, o 'std::' antes de 'cout'
 
 int main(){

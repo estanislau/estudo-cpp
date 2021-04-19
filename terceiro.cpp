@@ -4,6 +4,7 @@
 
 using namespace std;
 
+// Operadores matemáticos
 int main(){
     int a = 5, b = 2;
     
@@ -37,11 +38,9 @@ int main(){
     //a ++; ainda outra forma de incremento
     //a = a - 1; uma forma de decremento
     //a -= 1; outra forma de decremento
-    //a --;
+    //a --; ainda outra forma de decremento
     a *= 2;       // incremento com multiplicação
     cout << "O 'a' com incremento vale: " << a << endl;
-
-
 
 
     return 0;

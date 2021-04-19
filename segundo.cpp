@@ -2,6 +2,14 @@
 
 using namespace std;
 
+// 'main' determina que essa é a função 'principal'
+// 'int' é 'variável do tipo inteiro' e 'inteiro' é o nome de nossa variável que no exemplo tem valor '5'
+// '<<' determina o que será a saída
+// 'endl' significa "end line" ou seja 'final de linha';
+// 'cout' significa 'saída de c'
+// 'return 0' determina que o programa termina aqui
+
+// Variáveis e entradas
 int main(){      
     // tipos de variáveis                   
     // int inteiro = 5; podemos declarar a variável aqui ou desmembrar em dois como abaixo
@@ -48,10 +56,4 @@ int main(){
 }
 
 
-// 'main' determina que essa é a função 'principal'
-// 'int' é 'variável do tipo inteiro' e 'inteiro' é o nome de nossa variável que no exemplo tem valor '5'
-// '<<' determina o que será a saída
-// 'endl' significa "end line" ou seja 'final de linha';
-// 'cout' significa 'saída de c'
-// 'return 0' determina que o programa termina aqui
 

@@ -2,6 +2,7 @@
 
 using namespace std;
 
+// Estrutura condicional
 int main(){
     float v_nota1, v_nota2;
     cout << "Informe a nota 1: \n";
