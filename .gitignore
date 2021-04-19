@@ -2,5 +2,8 @@
 build/
 .*
 .gitignore
+.vscode/settings.json
+
 # Ignorar arquivos
-hello.cpp
+
+settings.json
