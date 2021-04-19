@@ -1,5 +1,6 @@
-# Ignorar diretórios
+# Ignorar diretórios oculto menos o .gitignore
 build/
-
+.*
+.gitignore
 # Ignorar arquivos
-.gitignores
+hello.cpp
