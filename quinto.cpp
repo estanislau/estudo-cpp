@@ -2,14 +2,14 @@
 
 using namespace std;
 
-// Estrutura condicional
+// Estrutura condicional e Operadores lógicos
 int main(){
     float v_nota1, v_nota2;
     cout << "Informe a nota 1: \n";
     cin >> v_nota1;                     // 'cin' significa 'entrada em c', ou seja, solicita uma entrada de dado ao usuário
     cout << "Informe a nota 2: \n";
     cin >> v_nota2; 
-    float v_media = (v_nota1 + v_nota2) / 2;
+    float v_media = (v_nota1 + v_nota2) / 2;    // |Atente para o uso de parênteses '()' necessário respeitar a ordem: primeio a soma
     cout << "A nota média é: " << v_media << endl;
 
 // primeira opção
@@ -33,6 +33,7 @@ int main(){
     } else {
         cout << "Nota final: A\n";
     }
+
 // Operadores lógicos: E = &&, OU: ||, NÃO = !  
  
     float v_frequencia;
@@ -53,7 +54,7 @@ int main(){
     //    cout << "Aluno APROVADO\n";
 //}
 // terceira opção com uso de Operador Ternário
-    (v_media >= 5 && v_frequencia >= 75) ? cout << "APROVADO\n" : cout << "REPROVADO\n";
+    (v_media >= 5 && v_frequencia >= 75) ? cout << "APROVADO\n" : cout << "REPROVADO\n"; // '?' significase a média for .. então APROVADO, ':' significa "senão" REPROVADO
 
     return 0;
 }
